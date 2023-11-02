@@ -1,0 +1,22 @@
+.toggle {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    width: 50px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4rem;
+    background-color: rgb(223, 221, 221);
+
+    .toggle_circle {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: darkblue;
+        box-sizing: 1px 1px 4px #0000005f;
+        cursor: pointer;
+    }
+}
